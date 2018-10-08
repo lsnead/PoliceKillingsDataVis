@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Transform id="e8e123ae-81c8-4dde-832d-3b537caa5853" Timestamp="1534443841">
+	<BaseObjects>
+		<BaseObject type="Downloaded Map" mapsource="MapQuestOpen" maptype="Hybrid" width="2048" height="1024" invert="true" grayscale="true" bestfit="true" margin="60">
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Position>
+			<Rotation>
+				<AngleX>0</AngleX>
+				<AngleY>0</AngleY>
+				<AngleZ>0</AngleZ>
+			</Rotation>
+			<WorldSize>
+				<Width>360</Width>
+				<Height>180</Height>
+			</WorldSize>
+			<GridLines horizontal="5" vertical="11">
+				<Color>0,0,0</Color>
+			</GridLines>
+		</BaseObject>
+	</BaseObjects>
+	<Datasources>
+		<Datasource source="File" type="CSV" id="8893831d-4d90-4bfe-a522-57960893a03f">
+			<Host>C:/Users/snead/Desktop/School/cs380\PoliceKillingsUSwLatitude.csv</Host>
+			<Name>C:/Users/snead/Desktop/School/cs380\PoliceKillingsUSwLatitude.csv</Name>
+		</Datasource>
+	</Datasources>
+	<Glyphs>
+		<Glyph label="0" merge="false" id="bd17511b-4bd7-4072-91f5-eb6cc2392620">
+			<Position>
+				<X>
+					<Min>-180</Min>
+					<Difference>360</Difference>
+					<Binding fieldId="~2690291564"/>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</X>
+				<Y>
+					<Min>-90</Min>
+					<Difference>180</Difference>
+					<Binding fieldId="~729848109"/>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Y>
+				<Z>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Z>
+			</Position>
+			<Rotation>
+				<X>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</X>
+				<Y>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Y>
+				<Z>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Z>
+			</Rotation>
+			<Scale>
+				<X>
+					<Min>0</Min>
+					<Difference>1</Difference>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</X>
+				<Y>
+					<Min>0</Min>
+					<Difference>1</Difference>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Y>
+				<Z>
+					<Min>0</Min>
+					<Difference>1</Difference>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Z>
+			</Scale>
+			<Color>
+				<RGB>
+					<Min>255,0,0</Min>
+					<Difference>-255,0,255</Difference>
+					<Binding fieldId="~214766118"/>
+					<Function type="Text Field To Value">
+						<Default>255,255,255</Default>
+						<KeyValuePairs>
+							<KeyValuePair>
+								<Key>A</Key>
+								<Value>255,255,0</Value>
+							</KeyValuePair>
+							<KeyValuePair>
+								<Key>B</Key>
+								<Value>0,255,0</Value>
+							</KeyValuePair>
+							<KeyValuePair>
+								<Key>H</Key>
+								<Value>128,0,128</Value>
+							</KeyValuePair>
+							<KeyValuePair>
+								<Key>N</Key>
+								<Value>0,255,255</Value>
+							</KeyValuePair>
+							<KeyValuePair>
+								<Key>O</Key>
+								<Value>255,0,0</Value>
+							</KeyValuePair>
+							<KeyValuePair>
+								<Key>W</Key>
+								<Value>0,0,255</Value>
+							</KeyValuePair>
+						</KeyValuePairs>
+					</Function>
+				</RGB>
+				<Transparency>
+					<Min>0</Min>
+					<Difference>255</Difference>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Transparency>
+			</Color>
+			<Tag>
+				<Value/>
+				<Binding fieldId="~214766118"/>
+				<Function type="None"/>
+			</Tag>
+			<Description>
+				<Value/>
+				<Function type="None"/>
+			</Description>
+			<RotationRate>
+				<X>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</X>
+				<Y>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Y>
+				<Z>
+					<Min>0</Min>
+					<Function type="Linear Interpolation">
+						<MinMax type="BoundField">
+							<Min>0</Min>
+						</MinMax>
+					</Function>
+				</Z>
+			</RotationRate>
+			<Geometry>
+				<Shape>
+					<Value>Cylinder</Value>
+					<Function type="None"/>
+				</Shape>
+				<Surface>Solid</Surface>
+				<Ratio>0.10000000000000001</Ratio>
+			</Geometry>
+			<VirtualTopology>
+				<Type>
+					<Value>Rod</Value>
+					<Function type="None"/>
+				</Type>
+			</VirtualTopology>
+			<URL>
+				<Value/>
+				<Function type="None"/>
+			</URL>
+			<Children>
+				<Glyph label="1">
+					<Position>
+						<X>
+							<Min>0</Min>
+							<Difference>-65</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Position>
+					<Rotation>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Rotation>
+					<Scale>
+						<X>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Scale>
+					<Color>
+						<RGB>
+							<Min>255,0,0</Min>
+							<Difference>-255,0,255</Difference>
+							<Binding fieldId="~4067625460"/>
+							<Function type="Numeric Field To Value">
+								<Default>0,0,0</Default>
+								<KeyValuePairs>
+									<KeyValuePair>
+										<Key>1</Key>
+										<Value>255,0,0</Value>
+									</KeyValuePair>
+									<KeyValuePair>
+										<Key>2</Key>
+										<Value>255,255,0</Value>
+									</KeyValuePair>
+									<KeyValuePair>
+										<Key>3</Key>
+										<Value>128,0,128</Value>
+									</KeyValuePair>
+									<KeyValuePair>
+										<Key>4</Key>
+										<Value>0,255,0</Value>
+									</KeyValuePair>
+									<KeyValuePair>
+										<Key>5</Key>
+										<Value>0,255,255</Value>
+									</KeyValuePair>
+									<KeyValuePair>
+										<Key>6</Key>
+										<Value>0,0,255</Value>
+									</KeyValuePair>
+								</KeyValuePairs>
+							</Function>
+						</RGB>
+						<Transparency>
+							<Min>0</Min>
+							<Difference>255</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Transparency>
+					</Color>
+					<Tag>
+						<Value/>
+						<Binding fieldId="~2039323525"/>
+						<Function type="None"/>
+					</Tag>
+					<Description>
+						<Value/>
+						<Function type="None"/>
+					</Description>
+					<RotationRate>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</RotationRate>
+					<Geometry>
+						<Shape>
+							<Value>Cone</Value>
+							<Function type="None"/>
+						</Shape>
+						<Surface>Solid</Surface>
+						<Ratio>0.10000000000000001</Ratio>
+					</Geometry>
+					<VirtualTopology>
+						<Type>
+							<Value>Pin</Value>
+							<Function type="None"/>
+						</Type>
+					</VirtualTopology>
+					<URL>
+						<Value/>
+						<Function type="None"/>
+					</URL>
+					<Children>
+						<Glyph label="2">
+							<Position>
+								<X>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</X>
+								<Y>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Y>
+								<Z>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Z>
+							</Position>
+							<Rotation>
+								<X>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</X>
+								<Y>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Y>
+								<Z>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Z>
+							</Rotation>
+							<Scale>
+								<X>
+									<Min>0</Min>
+									<Difference>1</Difference>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</X>
+								<Y>
+									<Min>0</Min>
+									<Difference>1</Difference>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Y>
+								<Z>
+									<Min>0</Min>
+									<Difference>1</Difference>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Z>
+							</Scale>
+							<Color>
+								<RGB>
+									<Min>255,255,255</Min>
+									<Difference>-63,-63,-63</Difference>
+									<Binding fieldId="~612715101"/>
+									<Function type="Numeric Field To Value">
+										<Default>0,0,0</Default>
+										<KeyValuePairs>
+											<KeyValuePair>
+												<Key>1</Key>
+												<Value>0,0,255</Value>
+											</KeyValuePair>
+											<KeyValuePair>
+												<Key>2</Key>
+												<Value>0,255,0</Value>
+											</KeyValuePair>
+											<KeyValuePair>
+												<Key>3</Key>
+												<Value>0,255,255</Value>
+											</KeyValuePair>
+											<KeyValuePair>
+												<Key>4</Key>
+												<Value>128,0,128</Value>
+											</KeyValuePair>
+											<KeyValuePair>
+												<Key>5</Key>
+												<Value>255,255,0</Value>
+											</KeyValuePair>
+										</KeyValuePairs>
+									</Function>
+								</RGB>
+								<Transparency>
+									<Min>0</Min>
+									<Difference>255</Difference>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Transparency>
+							</Color>
+							<Tag>
+								<Value/>
+								<Binding fieldId="~212833083"/>
+								<Function type="None"/>
+							</Tag>
+							<Description>
+								<Value/>
+								<Function type="None"/>
+							</Description>
+							<RotationRate>
+								<X>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</X>
+								<Y>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Y>
+								<Z>
+									<Min>0</Min>
+									<Function type="Linear Interpolation">
+										<MinMax type="BoundField">
+											<Min>0</Min>
+										</MinMax>
+									</Function>
+								</Z>
+							</RotationRate>
+							<Geometry>
+								<Shape>
+									<Value>Torus</Value>
+									<Function type="None"/>
+								</Shape>
+								<Surface>Solid</Surface>
+								<Ratio>0.10000000000000001</Ratio>
+							</Geometry>
+							<VirtualTopology>
+								<Type>
+									<Value>Torus</Value>
+									<Function type="None"/>
+								</Type>
+							</VirtualTopology>
+							<URL>
+								<Value/>
+								<Function type="None"/>
+							</URL>
+						</Glyph>
+					</Children>
+				</Glyph>
+				<Glyph label="6">
+					<Position>
+						<X>
+							<Min>-10</Min>
+							<Difference>-140</Difference>
+							<Binding fieldId="~4252564195"/>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Position>
+					<Rotation>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Rotation>
+					<Scale>
+						<X>
+							<Min>0</Min>
+							<Difference>0.75</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Difference>0.75</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Difference>0.75</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Scale>
+					<Color>
+						<RGB>
+							<Min>0,0,0</Min>
+							<Difference>50,101,101</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</RGB>
+						<Transparency>
+							<Min>0</Min>
+							<Difference>255</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Transparency>
+					</Color>
+					<Tag>
+						<Value/>
+						<Binding fieldId="~4252564195"/>
+						<Function type="None"/>
+					</Tag>
+					<Description>
+						<Value/>
+						<Function type="None"/>
+					</Description>
+					<RotationRate>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</RotationRate>
+					<Geometry>
+						<Shape>
+							<Value>Cube</Value>
+							<Function type="None"/>
+						</Shape>
+						<Surface>Solid</Surface>
+						<Ratio>0.10000000000000001</Ratio>
+					</Geometry>
+					<VirtualTopology>
+						<Type>
+							<Value>Torus</Value>
+							<Function type="None"/>
+						</Type>
+					</VirtualTopology>
+					<URL>
+						<Value/>
+						<Function type="None"/>
+					</URL>
+				</Glyph>
+				<Glyph label="7">
+					<Position>
+						<X>
+							<Min>0</Min>
+							<Difference>-176</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Position>
+					<Rotation>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Rotation>
+					<Scale>
+						<X>
+							<Min>0</Min>
+							<Difference>0.75</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Difference>0.75</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Difference>0.75</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Scale>
+					<Color>
+						<RGB>
+							<Min>255,0,255</Min>
+							<Difference>-255,0,0</Difference>
+							<Binding fieldId="~1582831490"/>
+							<Function type="Text Interpolation"/>
+						</RGB>
+						<Transparency>
+							<Min>0</Min>
+							<Difference>255</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Transparency>
+					</Color>
+					<Tag>
+						<Value/>
+						<Binding fieldId="~1582831490"/>
+						<Function type="None"/>
+					</Tag>
+					<Description>
+						<Value/>
+						<Function type="None"/>
+					</Description>
+					<RotationRate>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</RotationRate>
+					<Geometry>
+						<Shape>
+							<Value>Cube</Value>
+							<Function type="None"/>
+						</Shape>
+						<Surface>Solid</Surface>
+						<Ratio>0.10000000000000001</Ratio>
+					</Geometry>
+					<VirtualTopology>
+						<Type>
+							<Value>Torus</Value>
+							<Function type="None"/>
+						</Type>
+					</VirtualTopology>
+					<URL>
+						<Value/>
+						<Function type="None"/>
+					</URL>
+				</Glyph>
+				<Glyph label="10">
+					<Position>
+						<X>
+							<Min>-15</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Position>
+					<Rotation>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Rotation>
+					<Scale>
+						<X>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Scale>
+					<Color>
+						<RGB>
+							<Min>0,0,0</Min>
+							<Difference>160,160,164</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</RGB>
+						<Transparency>
+							<Min>0</Min>
+							<Difference>255</Difference>
+							<Binding fieldId="~2884981940"/>
+							<Function type="Text Interpolation"/>
+						</Transparency>
+					</Color>
+					<Tag>
+						<Value/>
+						<Binding fieldId="~2884981940"/>
+						<Function type="None"/>
+					</Tag>
+					<Description>
+						<Value/>
+						<Function type="None"/>
+					</Description>
+					<RotationRate>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</RotationRate>
+					<Geometry>
+						<Shape>
+							<Value>Torus</Value>
+							<Function type="None"/>
+						</Shape>
+						<Surface>Solid</Surface>
+						<Ratio>0.10000000000000001</Ratio>
+					</Geometry>
+					<VirtualTopology>
+						<Type>
+							<Value>Torus</Value>
+							<Function type="None"/>
+						</Type>
+					</VirtualTopology>
+					<URL>
+						<Value/>
+						<Function type="None"/>
+					</URL>
+				</Glyph>
+				<Glyph label="11">
+					<Position>
+						<X>
+							<Min>-30</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Position>
+					<Rotation>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Rotation>
+					<Scale>
+						<X>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Difference>1</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</Scale>
+					<Color>
+						<RGB>
+							<Min>0,0,0</Min>
+							<Difference>255,255,255</Difference>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</RGB>
+						<Transparency>
+							<Min>0</Min>
+							<Difference>255</Difference>
+							<Binding fieldId="~2732310547"/>
+							<Function type="Text Interpolation"/>
+						</Transparency>
+					</Color>
+					<Tag>
+						<Value/>
+						<Binding fieldId="~2732310547"/>
+						<Function type="None"/>
+					</Tag>
+					<Description>
+						<Value/>
+						<Function type="None"/>
+					</Description>
+					<RotationRate>
+						<X>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</X>
+						<Y>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Y>
+						<Z>
+							<Min>0</Min>
+							<Function type="Linear Interpolation">
+								<MinMax type="BoundField">
+									<Min>0</Min>
+								</MinMax>
+							</Function>
+						</Z>
+					</RotationRate>
+					<Geometry>
+						<Shape>
+							<Value>Torus</Value>
+							<Function type="None"/>
+						</Shape>
+						<Surface>Solid</Surface>
+						<Ratio>0.10000000000000001</Ratio>
+					</Geometry>
+					<VirtualTopology>
+						<Type>
+							<Value>Torus</Value>
+							<Function type="None"/>
+						</Type>
+					</VirtualTopology>
+					<URL>
+						<Value/>
+						<Function type="None"/>
+					</URL>
+				</Glyph>
+			</Children>
+		</Glyph>
+	</Glyphs>
+	<Defaults>
+		<TagFieldDefault>None</TagFieldDefault>
+		<TagValueDefault>No Tag</TagValueDefault>
+		<ScaleZeroDefault remove="true"/>
+		<SuperimposedGlyphs use="true"/>
+	</Defaults>
+	<SceneProperties>
+		<BackgroundColor>0,0,0</BackgroundColor>
+	</SceneProperties>
+	<FieldGroups/>
+	<Legends>
+		<Legend Title="PKL" Type="Image">C:\Users\snead\Desktop\School\PoliceKillingsLegend.PNG</Legend>
+	</Legends>
+	<InputFields>
+		<InputField name="~729848109" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="Latitude" type="Real"/>
+		<InputField name="~2690291564" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="Longitude" type="Real"/>
+		<InputField name="~2039323525" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="armed" type="Text"/>
+		<InputField name="~231664562" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="date" type="Text"/>
+		<InputField name="~1582831490" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="gender" type="Text"/>
+		<InputField name="~214766118" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="race" type="Text"/>
+		<InputField name="~2732310547" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="signs_of_mental_illness" type="Text"/>
+		<InputField name="~2884981940" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="body_camera" type="Text"/>
+		<InputField name="~210291227" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="name" type="Text"/>
+		<InputField name="~212833083" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="flee" type="Text"/>
+		<InputField name="~4252564195" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="age" type="Real"/>
+		<InputField name="~4067625460" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="armedCategorized" type="Real"/>
+		<InputField name="~3395880397" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="armedNum" type="Real"/>
+		<InputField name="~612715101" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="fleeNum" type="Real"/>
+		<InputField name="~2652639873" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="dateMultiplied" type="Real"/>
+		<InputField name="~3590444384" id="8893831d-4d90-4bfe-a522-57960893a03f" table="OnlyTable" field="LatitudeAltered" type="Real"/>
+	</InputFields>
+</Transform>
